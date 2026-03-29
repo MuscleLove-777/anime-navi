@@ -12,6 +12,9 @@ from pathlib import Path
 from jinja2 import Template
 from config import Config, GENRES
 
+# 自サイトのURL（姉妹サイト相互リンク用）
+CURRENT_SITE_URL = "https://musclelove-777.github.io/anime-navi/"
+
 
 # ============================================================
 # 記事テンプレート群（バリエーションで重複コンテンツを回避）
@@ -572,13 +575,39 @@ def _build_related_section(current_genre: str = "") -> str:
 
     links = " | ".join([f'[{name}の作品を見る]({url})' for name, url in picks])
 
+    sister = _build_sister_sites()
+
     return f"""
 ### 他のジャンルも見る
 
 {links}
 
 [全カテゴリ一覧](/anime-navi/categories/) | [タグ一覧](/anime-navi/tags/)
+
+{sister}
 """
+
+
+def _build_sister_sites():
+    """姉妹サイトへの相互リンク（SEOリンクジュース循環）"""
+    sites = {
+        "エロナビ（総合）": "https://musclelove-777.github.io/eronavi/",
+        "アニメエロナビ": "https://musclelove-777.github.io/anime-navi/",
+        "筋肉美女ナビ": "https://musclelove-777.github.io/fitness-affiliate-blog/",
+        "NTRナビ": "https://musclelove-777.github.io/ntr-navi/",
+        "没入エロスVR": "https://musclelove-777.github.io/vr-eros/",
+        "艶妻コレクション": "https://musclelove-777.github.io/entsuma/",
+        "シロウト発掘隊": "https://musclelove-777.github.io/shiroto-squad/",
+        "おっぱいパラダイス": "https://musclelove-777.github.io/oppai-paradise/",
+        "二次元嫁実写化計画": "https://musclelove-777.github.io/nijigen-realize/",
+        "フェチの殿堂": "https://musclelove-777.github.io/fetish-dendo/",
+    }
+    others = [(k, v) for k, v in sites.items() if v != CURRENT_SITE_URL]
+    picks = random.sample(others, min(3, len(others)))
+    links = "\n".join([f'- [{name}]({url})' for name, url in picks])
+    return f"""### 姉妹サイト
+
+{links}"""
 
 
 if __name__ == "__main__":
