@@ -1,0 +1,152 @@
+baseURL = "https://musclelove-777.github.io/anime-navi/"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+title = "アニメエロナビ | エロアニメ・同人・ゲーム総合レビュー"
+theme = "PaperMod"
+paginate = 30
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.7
+  filename = "sitemap.xml"
+
+[params]
+  env = "production"
+  canonicalURL = true
+  description = "エロアニメ・同人CG・ASMR・エロゲ・BL…二次元アダルトコンテンツを毎日更新。サンプル付きレビューサイト"
+  author = "アニメエロナビ編集部"
+  images = ["https://musclelove-777.github.io/anime-navi/favicon.svg"]
+  keywords = ["エロアニメ おすすめ", "同人 FANZA ランキング", "ASMR アダルト", "エロゲ おすすめ", "同人CG 人気", "BL 同人", "触手 アニメ", "NTR アニメ", "異世界 エロ", "学園 エロアニメ", "同人ゲーム おすすめ", "アダルトコミック 人気"]
+  defaultTheme = "dark"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = false
+  TocOpen = false
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "アニメエロナビ"
+    Content = "エロアニメ・同人・ゲーム・ASMR…二次元アダルトの全てを毎日レビュー！ Presented by MuscleLove"
+
+  [[params.socialIcons]]
+    name = "x-twitter"
+    url = "https://x.com/MuscleGirlLove7"
+
+  [[params.socialIcons]]
+    name = "linktree"
+    url = "https://linktr.ee/ILoveMyCats"
+
+[params.assets]
+  favicon = "favicon.svg"
+  favicon16x16 = "favicon.svg"
+  favicon32x32 = "favicon.svg"
+  apple_touch_icon = "favicon.svg"
+  safari_pinned_tab = "favicon.svg"
+
+[params.cover]
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
+  linkFullImages = true
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[[menus.main]]
+  name = "新着"
+  url = "/"
+  weight = 1
+
+[[menus.main]]
+  name = "エロアニメ"
+  url = "/categories/anime/"
+  weight = 10
+
+[[menus.main]]
+  name = "同人CG"
+  url = "/categories/doujincg/"
+  weight = 20
+
+[[menus.main]]
+  name = "同人漫画"
+  url = "/categories/doujinmanga/"
+  weight = 30
+
+[[menus.main]]
+  name = "ASMR"
+  url = "/categories/voice/"
+  weight = 40
+
+[[menus.main]]
+  name = "同人ゲーム"
+  url = "/categories/doujingame/"
+  weight = 50
+
+[[menus.main]]
+  name = "エロゲ"
+  url = "/categories/pcgame/"
+  weight = 60
+
+[[menus.main]]
+  name = "コミック"
+  url = "/categories/comic/"
+  weight = 70
+
+[[menus.main]]
+  name = "NTRアニメ"
+  url = "/categories/ntranime/"
+  weight = 80
+
+[[menus.main]]
+  name = "触手"
+  url = "/categories/tentacle/"
+  weight = 81
+
+[[menus.main]]
+  name = "異世界"
+  url = "/categories/isekai/"
+  weight = 82
+
+[[menus.main]]
+  name = "学園"
+  url = "/categories/school/"
+  weight = 83
+
+[[menus.main]]
+  name = "BL"
+  url = "/categories/bl/"
+  weight = 84
+
+[[menus.main]]
+  name = "全カテゴリ"
+  url = "/categories/"
+  weight = 110
+
+[[menus.main]]
+  name = "検索"
+  url = "/search/"
+  weight = 120

@@ -1,0 +1,27 @@
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+  "author": {
+    "@type": "Organization",
+    "name": "アニメエロナビ編集部"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "アニメエロナビ"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+  {{ with .Params.cover }}{{ if .image }},
+  "image": "{{ .image }}"
+  {{ end }}{{ end }}
+}
+</script>
+{{ end }}
