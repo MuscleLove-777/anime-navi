@@ -30,6 +30,14 @@ jobs:
         working-directory: scripts
         run: python main.py --genre all --count 1
 
+      - name: Generate rankings
+        env:
+          API_ID: ${{ secrets.API_ID }}
+          AFFILIATE_ID: ${{ secrets.AFFILIATE_ID }}
+          SITE_NAME: ${{ secrets.SITE_NAME }}
+        working-directory: scripts
+        run: python generate_ranking.py
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"

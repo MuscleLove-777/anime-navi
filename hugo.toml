@@ -82,6 +82,11 @@ buildExpired = false
   weight = 1
 
 [[menus.main]]
+  name = "🏆 ランキング"
+  url = "/categories/ranking/"
+  weight = 2
+
+[[menus.main]]
   name = "エロアニメ"
   url = "/categories/anime/"
   weight = 10
