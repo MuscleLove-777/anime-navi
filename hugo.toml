@@ -16,6 +16,7 @@ buildExpired = false
   filename = "sitemap.xml"
 
 [params]
+googleAnalyticsID = "G-YV53HTHVY2"
   env = "production"
   canonicalURL = true
   description = "エロアニメ・同人CG・ASMR・エロゲ・BL…二次元アダルトコンテンツを毎日更新。サンプル付きレビューサイト"
