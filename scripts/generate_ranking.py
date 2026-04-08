@@ -158,7 +158,7 @@ cover:
         if item["sample_images"]:
             md += '<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">\n'
             for img in item["sample_images"]:
-                md += f'  <a href="{img}" target="_blank"><img src="{img}" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>\n'
+                md += f'  <a href="{item["affiliate_url"]}" target="_blank" rel="nofollow sponsored"><img src="{img}" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>\n'
             md += "</div>\n\n"
 
         md += "---\n\n"
