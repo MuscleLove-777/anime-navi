@@ -4,7 +4,7 @@ date: 2026-03-29T15:33:10+09:00
 tags: ["ランキング", "NTRアニメ", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "2026-03-29更新のNTRアニメデイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+description: "【2026-03-29】NTRアニメ デイリーランキングTOP20の作品情報まとめ。ランキング・NTRアニメ・デイリーを軸に、価格・出演・シリーズ・配信形態などRankingを購入する前に知りたいポイントをサンプル付きで網羅しています。"
 cover:
   image: "https://pics.dmm.co.jp/digital/video/h_1262apcp00502/h_1262apcp00502pl.jpg"
   alt: "NTRアニメデイリーランキング1位"
