@@ -4,7 +4,7 @@ date: 2026-04-08T01:23:28+09:00
 tags: ["ランキング", "異世界", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "2026-04-08更新の異世界デイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+description: "「【2026-04-08】異世界 デイリーランキングTOP20」の見どころを徹底解説。ランキングや異世界が好きな方におすすめのRanking作品で、サンプル動画・画像付きで魅力をチェックでき、出演・シリーズ・価格まで網羅しています。"
 cover:
   image: "https://doujin-assets.dmm.co.jp/digital/comic/d_710864/d_710864pl.jpg"
   alt: "異世界デイリーランキング1位"
