@@ -4,7 +4,7 @@ date: 2026-04-07T01:22:41+09:00
 tags: ["ランキング", "学園", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "2026-04-07更新の学園デイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+description: "Rankingジャンルの注目作「【2026-04-07】学園 デイリーランキングTOP20」をレビュー。ランキング・学園・デイリーを含むタグ構成で、サンプル画像とアフィリエイト直リンクから作品ページへ即アクセス可能、価格や出演情報も掲載。"
 cover:
   image: "https://pics.dmm.co.jp/digital/video/h_386acrn00214/h_386acrn00214pl.jpg"
   alt: "学園デイリーランキング1位"
