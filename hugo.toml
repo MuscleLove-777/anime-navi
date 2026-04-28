@@ -3,7 +3,8 @@ languageCode = "ja"
 defaultContentLanguage = "ja"
 title = "アニメエロナビ | エロアニメ・同人・ゲーム総合レビュー"
 theme = "PaperMod"
-paginate = 30
+[pagination]
+  pagerSize = 50
 
 enableRobotsTXT = true
 buildDrafts = false
