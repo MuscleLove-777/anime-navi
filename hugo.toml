@@ -83,81 +83,97 @@ googleAnalyticsID = "G-YV53HTHVY2"
     noClasses = false
 
 [[menus.main]]
+  identifier = "new-arrivals"
   name = "新着"
   url = "/"
   weight = 1
 
 [[menus.main]]
+  identifier = "ranking"
   name = "🏆 ランキング"
   url = "/categories/ranking/"
   weight = 2
 
 [[menus.main]]
+  identifier = "エロアニメ"
   name = "エロアニメ"
   url = "/categories/anime/"
   weight = 10
 
 [[menus.main]]
+  identifier = "同人cg"
   name = "同人CG"
   url = "/categories/doujincg/"
   weight = 20
 
 [[menus.main]]
+  identifier = "同人漫画"
   name = "同人漫画"
   url = "/categories/doujinmanga/"
   weight = 30
 
 [[menus.main]]
+  identifier = "asmr"
   name = "ASMR"
   url = "/categories/voice/"
   weight = 40
 
 [[menus.main]]
+  identifier = "同人ゲーム"
   name = "同人ゲーム"
   url = "/categories/doujingame/"
   weight = 50
 
 [[menus.main]]
+  identifier = "エロゲ"
   name = "エロゲ"
   url = "/categories/pcgame/"
   weight = 60
 
 [[menus.main]]
+  identifier = "コミック"
   name = "コミック"
   url = "/categories/comic/"
   weight = 70
 
 [[menus.main]]
+  identifier = "ntrアニメ"
   name = "NTRアニメ"
   url = "/categories/ntranime/"
   weight = 80
 
 [[menus.main]]
+  identifier = "触手"
   name = "触手"
   url = "/categories/tentacle/"
   weight = 81
 
 [[menus.main]]
+  identifier = "異世界"
   name = "異世界"
   url = "/categories/isekai/"
   weight = 82
 
 [[menus.main]]
+  identifier = "学園"
   name = "学園"
   url = "/categories/school/"
   weight = 83
 
 [[menus.main]]
+  identifier = "bl"
   name = "BL"
   url = "/categories/bl/"
   weight = 84
 
 [[menus.main]]
+  identifier = "all-categories"
   name = "全カテゴリ"
   url = "/categories/"
   weight = 110
 
 [[menus.main]]
+  identifier = "search"
   name = "検索"
   url = "/search/"
   weight = 120
