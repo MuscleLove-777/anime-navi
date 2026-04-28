@@ -4,7 +4,7 @@ date: 2026-04-11T01:19:01+09:00
 tags: ["ランキング", "エロアニメ総合", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "2026-04-11更新のエロアニメ総合デイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+description: "【2026-04-11】エロアニメ総合 デイリーランキングTOP20の作品情報まとめ。ランキング・エロアニメ総合・デイリーを軸に、価格・出演・シリーズ・配信形態などRankingを購入する前に知りたいポイントをサンプル付きで網羅しています。"
 cover:
   image: "https://pics.dmm.co.jp/digital/video/h_402mjad00403/h_402mjad00403pl.jpg"
   alt: "エロアニメ総合デイリーランキング1位"
