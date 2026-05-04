@@ -40,7 +40,26 @@ googleAnalyticsID = "G-YV53HTHVY2"
 
   [params.homeInfoParams]
     Title = "アニメエロナビ"
-    Content = "エロアニメ・同人・ゲーム・ASMR…二次元アダルトの全てを毎日レビュー！ Presented by MuscleLove"
+    Content = """
+エロアニメ・同人・ゲーム・ASMR…二次元アダルトの全てを毎日レビュー！ Presented by MuscleLove
+
+<div class="home-cat-chips" style="display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 6px;">
+  <strong style="width:100%;font-size:0.95rem;margin-bottom:4px;">🔥 人気カテゴリから探す</strong>
+  <a href="/anime-navi/categories/anime/" style="padding:6px 14px;background:#e63946;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;font-weight:600;">🎌 エロアニメ</a>
+  <a href="/anime-navi/categories/doujincg/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">同人CG</a>
+  <a href="/anime-navi/categories/doujinmanga/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">同人漫画</a>
+  <a href="/anime-navi/categories/doujingame/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">同人ゲーム</a>
+  <a href="/anime-navi/categories/pcgame/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">エロゲ</a>
+  <a href="/anime-navi/categories/comic/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">コミック</a>
+  <a href="/anime-navi/categories/voice/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">ASMR</a>
+  <a href="/anime-navi/categories/ntranime/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">NTRアニメ</a>
+  <a href="/anime-navi/categories/tentacle/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">触手</a>
+  <a href="/anime-navi/categories/isekai/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">異世界</a>
+  <a href="/anime-navi/categories/school/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">学園</a>
+  <a href="/anime-navi/categories/bl/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">BL</a>
+  <a href="/anime-navi/categories/ranking/" style="padding:6px 14px;background:#f59e0b;color:#000;text-decoration:none;border-radius:18px;font-size:0.85rem;font-weight:600;">🏆 ランキング</a>
+</div>
+"""
 
   [[params.socialIcons]]
     name = "x-twitter"
